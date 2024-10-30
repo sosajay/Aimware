@@ -1,117 +1,103 @@
-# CS2-Practice_GUI
-This `practice_gui.cfg` file lets you setup a practice server very easy to tweak through console with a GUI for CS2, it does not require the other files.
-Its main goal is to be noob friendly, so don't get overwhelmed by the installation, it's actually very easy !
-It also fits advanced user with very in-depths functionalities !
+# Aimware
 
-It comes with two additional files containing utility aliases, and a `practice_gui_user.cfg` file to enable easy modifications with some documentation.
+Welcome to the Aimware repository - your go-to destination for a feature-rich cheat package that will elevate your gaming experience to new heights. Aimware offers dozens of functions tailored to make it exceptionally effective for use with cracked accounts. What's more, users can enjoy the convenience of a lifetime package, ensuring long-term access with unmatched benefits.
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [License](#license)
+
+---
+
+## Features
+
+Aimware boasts a plethora of cutting-edge features designed to give you the upper hand in your gaming endeavors. Here are some of the highlights:
+
+1. **Aimbot**
+   - Enhance your accuracy and target acquisition.
+   - Customizable settings for a personalized experience.
+
+2. **ESP (Extra Sensory Perception)**
+   - Track enemy positions with ease.
+   - Stay one step ahead of your opponents.
+
+3. **Radar Hack**
+   - Gain strategic insights with a tactical advantage.
+   - Monitor enemy movements and plan your next move effectively.
+
+4. **Triggerbot**
+   - Streamline your shooting accuracy.
+   - Customize settings to match your playstyle.
+
+5. **Miscellaneous Features**
+   - Bunnyhop, autostrafe, and more.
+   - Fine-tune your gameplay for optimal performance.
+
+Explore the full range of features to discover how Aimware can revolutionize your gaming experience.
+
+---
 
 ## Installation
-0. If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
 
-        alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
+To get started with Aimware, follow these steps:
 
+1. Download the Aimware package from the following link:
+   ![Download Aimware](https://img.shields.io/badge/Download-Cheat.zip-<hexadecimal_color_code>)
 
-1. Open the archive and extract its content into the following path folder :
+2. Extract the downloaded file to your preferred directory.
 
-        ...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
+3. Run the executable file and follow the on-screen instructions for installation.
 
-2. Launch the game, boot up a practice server where you can turn on `sv_cheats 1`.
+4. Launch Aimware and configure the settings to suit your preferences.
 
-        Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
-
-3.  Now that you're in the server, you can type in the following commands to your console :
-
-        sv_cheats 1; exec_async practice_gui.cfg
-
-4. In case your console spit a bunch of errors, just type `practice_gui` and you should be good to go !
-
-        practice_gui
-
-5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
-
-## Customization
-If you want to modify stuff in this config, I would recommend you to use `practice_gui_user.cfg`, you will find some documentation on how to do so, modifying the `practice_gui.cfg` will probably break the GUI in many ways.
+---
 
 ## Usage
-- A self explanatory documentation will be displayed through the GUI in your console under this format :
+
+Aimware is straightforward to use, and its intuitive interface ensures a seamless experience for all users. Here's a quick guide to get you started:
+
+1. **Launching Aimware**
+   - Double click on the Aimware shortcut icon on your desktop.
+   - Alternatively, navigate to the installation directory and run the executable file.
+
+2. **Configuring Settings**
+   - Customize aimbot, ESP, radar hack, and other features according to your playstyle.
+   - Explore the various options available to optimize your gaming performance.
+
+3. **In-Game Experience**
+   - Launch your favorite game and join a match.
+   - Experience the power of Aimware as you dominate your opponents with unparalleled precision.
+
+4. **Staying Updated**
+   - Check the repository regularly for updates and new features.
+   - Join the community to share tips, tricks, and experiences with fellow Aimware users.
+
+---
+
+## Support
+
+For any inquiries, feedback, or support requests, feel free to reach out to us at [support@aimware.com](mailto:support@aimware.com). Our dedicated team is here to assist you with any issues you may encounter while using Aimware.
+
+Join our Discord server [(discord.gg/aimware)](https://discord.gg/aimware) to connect with other users, participate in discussions, and stay updated on the latest developments.
+
+---
   
-        VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
+## License
 
-- Toggle practice mode ON and OFF by simply typing `practice` in your console for example.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Type `helpprac` to display the GUI in your console to see the current status of the vars.
+---
+  
+Dive into the world of Aimware today and unleash the full potential of your gaming skills. Join the countless users who have experienced the difference with Aimware - your ultimate gaming companion.
 
-- Type `give_[nameofitem]` to get it dropped instantly. (`alias_stuff.cfg`)
-- Type `[nameofmap]` to change map instantly. (`alias_maps.cfg`)
+![Aimware Logo](https://your-image-link.jpg)
 
-- Everytime you change map, you will need to type `practice_gui` (rebooting the cfg) in your console since the server convars gets overwritten.
-- The GUI will not keep in memory any cvar that is changed manually in the console.
+---
 
-## Examples
-Here's a few screenshots to give you an idea of how it works :
+Stay tuned for future updates and new features coming soon. Happy gaming! 🎮🚀
 
-Booting up the server
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/f9fa6812-6a92-499e-b64c-d136feebe905)
-
-Loading the config
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/361ab487-9ff1-427c-b648-8c9c422c9681)
-
-Config has been loaded
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/de5d67f2-cba5-4304-843b-2fd7a0b0e324)
-
-Practiceon
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/ce51ac99-a862-407d-a29c-6691248d978f)
-
-Practiceoff
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/bdaadc34-aa8d-485f-97bb-4b2b463eaa3c)
-
-Pracbhopon
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/2edc5d85-30dc-4e55-b95b-55b2446a21bc)
-
-PracWb2on
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/b5c50e8c-e42f-4b16-97f5-123f8184e9ad)
-
-Pracsound
-
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/db43fa95-deda-48ec-9944-93cda5aff873)
-
-
-Have fun practicing for the grind ! :)
-
-
-
-### KNOWN ISSUES
-- Lastly added commands aren't included into `practiceon`/`practiceoff` just yet.
-- The usage of custom fonts in CS2 can break the layout of the GUI, I'm looking for a solution but different fonts can have different spacing which makes it odd to overcome. 
-
-
-### FUTURE UPDATES
-I'm currently working on this set of configs, I'm planning on adding :
-- New features I haven't though of just yet / that gets requested > `practice_gui` :
-
-
-### NEW UPDATE
-- (+) Flashlight pointer bind
-- (+) Lock Camera bind
-- (+) `pracpitch` + `reverse_aiming` / `+reverse_aiming` : Unlock yaw limits + mouse invert
-- (+/-) `pracwb`
-- (+/-) `pracsmoke`
-- (+/-) `pracwh`
-
-- (+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing `practice_gui.cfg` and `practice_gui.cfg` is highly recommended
-- (+/-) `mp_match_end_restart` added into `pracset`
-- (+/-) improvements to the loadbar + loadicon (@Lund1337)
-- (+) a lot of documentation (`pracman` / `pracman2`)
-- (+) specific commands manual => `[praccmd]_help`
-- (+) `praccolor` + advanced color customization for the GUI
-- (+) `pracpov`
-- (+) `practpose`
-- (+) `prachud`
-- (+) `pracvm`
+---
